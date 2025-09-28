@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // 这里要和 Jenkins 全局工具配置的名字一致
-        jdk 'JDK21'      // 同理，使用的 JDK 名称
+        maven 'maven3'   // 这里要和 Jenkins 全局工具配置的名字一致
+        jdk 'jdk21'      // 同理，使用的 JDK 名称
     }
 
     stages {
